@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Currículo - Arthur</title>
+  <link rel="shortcut icon" href="./arquivos/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">Arthur Stelzer da C. Salomão</div>
+      <nav>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="curriculo.html">Currículo</a>
+          <a href="github.html">GitHub</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Currículo Profissional:</h1>
+      <img src="./arquivos/curriculo-imagem.jpeg" alt="curriculo" width="1005px">
+      <br>
+      <p>Link do PDF:</p>
+      <p><a href="./arquivos/curriculo.pdf" target="_blank">curriculo.pdf</a></p>
+      <!--tentei colocar esse pdf pra download mas nao consegui de nenhum jeito-->
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="ano2"></span> Arthur Stelzer da C. Salomão — <a href="https://github.com/arthurst-dot" target="_blank">Github</a></footer>
+  <script>document.getElementById('ano2').textContent=new Date().getFullYear();</script>
+  <script src="script.js"></script>
+</body>
+</html>
